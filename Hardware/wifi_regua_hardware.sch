@@ -1,0 +1,147 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:diode
+LIBS:relays
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC548 Q?
+U 1 1 58D80B2A
+P 5350 5550
+F 0 "Q?" H 5550 5625 50  0000 L CNN
+F 1 "BC548" H 5550 5550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5550 5475 50  0001 L CIN
+F 3 "" H 5350 5550 50  0001 L CNN
+	1    5350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 J?
+U 1 1 58D80B87
+P 4000 4050
+F 0 "J?" H 4000 4300 50  0000 C CNN
+F 1 "CONN_02X04" H 4000 3800 50  0000 C CNN
+F 2 "" H 4000 2850 50  0001 C CNN
+F 3 "" H 4000 2850 50  0001 C CNN
+	1    4000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 58D80BFA
+P 5150 5100
+F 0 "D?" H 5150 5200 50  0000 C CNN
+F 1 "LED" H 5150 5000 50  0000 C CNN
+F 2 "" H 5150 5100 50  0001 C CNN
+F 3 "" H 5150 5100 50  0001 C CNN
+	1    5150 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58D80C69
+P 5150 4650
+F 0 "R?" V 5230 4650 50  0000 C CNN
+F 1 "R" V 5150 4650 50  0000 C CNN
+F 2 "" V 5080 4650 50  0001 C CNN
+F 3 "" H 5150 4650 50  0001 C CNN
+	1    5150 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1N4148 D?
+U 1 1 58D80E6C
+P 5450 4800
+F 0 "D?" H 5450 4900 50  0000 C CNN
+F 1 "1N4148" H 5450 4700 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 5450 4625 50  0001 C CNN
+F 3 "" H 5450 4800 50  0001 C CNN
+	1    5450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L FINDER-36.11.4001 RL?
+U 1 1 58D80E9F
+P 6000 4750
+F 0 "RL?" H 6450 4900 50  0000 L CNN
+F 1 "FINDER-36.11.4001" H 6450 4800 50  0000 L CNN
+F 2 "" H 6000 4750 50  0001 C CNN
+F 3 "" H 6000 4750 50  0001 C CNN
+	1    6000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5250 5150 5350
+Wire Wire Line
+	5150 5350 5800 5350
+Wire Wire Line
+	5800 5350 5800 5050
+Wire Wire Line
+	5450 4950 5450 5350
+Connection ~ 5450 5350
+Wire Wire Line
+	5800 4450 5800 4300
+Wire Wire Line
+	5800 4300 5150 4300
+Wire Wire Line
+	5150 4300 5150 4500
+Wire Wire Line
+	5150 4800 5150 4950
+Wire Wire Line
+	5450 4650 5450 4300
+Wire Wire Line
+	5450 4300 5400 4300
+$Comp
+L GND #PWR?
+U 1 1 58D81251
+P 5450 5900
+F 0 "#PWR?" H 5450 5650 50  0001 C CNN
+F 1 "GND" H 5450 5750 50  0000 C CNN
+F 2 "" H 5450 5900 50  0001 C CNN
+F 3 "" H 5450 5900 50  0001 C CNN
+	1    5450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5750 5450 5900
+$EndSCHEMATC
