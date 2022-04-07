@@ -2,6 +2,13 @@
 Este é um projeto Open Source/Open Hardware com a intenção de retribuir um pouco com a comunidade por tudo o que eu já consumi de informação.
 
 
+### Idéia para o Projeto.
+Como noventa porcento dos projetos são feitos por conta de preguiça, eu possuia uma regua de energia e queria automatizar a Ligação ON/OFF dela. com isso eu possuia uma regua de energia igual ao da imagem
+
+(!plot)[./images/regua_energia.jpg]
+
+
+
 ### Hardware
 Itens Necessários para a montagem.
 
