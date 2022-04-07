@@ -1,3 +1,5 @@
+## Selecione o Idioma: | Português | [Inglês](./README_en.md) | [Espanhol](./README_es.md) |
+
 ### Geral
 Este é um projeto Open Source/Open Hardware com a intenção de retribuir um pouco com a comunidade por tudo o que eu já consumi de informação.
 
